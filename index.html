@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Keen</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav>
+            <ul class="nav-links">
+                <li class="nav-item"><a class="item-value active" href="#">Dashboards</a></li>
+                <li class="nav-item"><a class="item-value" href="#">Pages</a></li>
+                <li class="nav-item"><a class="item-value" href="#">Apps</a></li>
+                <li class="nav-item"><a class="item-value" href="#">Layouts</a></li>
+                <li class="nav-item"><a class="item-value" href="#">Help</a></li>
+            </ul>
+            <ul class="nav-links">
+                <li class="nav-item"><a class="item-value" href="#">Dashboards</a></li>
+                <li class="nav-item"><a class="item-value" href="#">Pages</a></li>
+                <li class="nav-item"><a class="item-value" href="#">Apps</a></li>
+                <li class="nav-item"><a class="item-value" href="#">Layouts</a></li>
+                <li class="nav-item"><a class="item-value" href="#">Help</a></li>
+            </ul>
+        </nav>
+        <main>
+            <header>
+                <div>
+                    <h3 class="heading">Default</h3>
+                    <span class="sub-heading">Home - Dashboards</span>
+                </div>
+                <div class="right-header">
+                    <select name="select-campaign" id="dropdown">
+                        <option value="select-campaign">Select Campaign</option>
+                        <option value="twitter-campaign">Twitter Campaign</option>
+                        <option value="facebook-campaign">Facebook Campaign</option>
+                        <option value="adword-campaign">Adword Campaign</option>
+                        <option value="carbon-campaign">Carbon Campaign</option>
+                    </select>
+                    <button type="submit" class="add-button">+</button>
+                </div>
+            </header>
+            <section class="row">
+                <!-- first two-blocks -->
+                <div class="first-two-blocks">
+                    <!-- Blue block -->
+                    <div class="blue-block">
+                        <div class="blue-block-top">
+                            <h2 class="heading">69</h2>
+                            <span class="followed-text">Active Projects in April</span>
+                        </div>
+                        <div class="blue-block-bottom">
+                            <div style="display: flex; justify-content: space-between">
+                                <span class="followed-text">43 Pending</span>
+                                <span class="followed-text">72%</span>
+                            </div>
+                            <div class="progress-container">
+                                <progress value="75" max="100">75%</progress>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- external link block -->
+                    <div style="background-color: #fff; border-radius: 10px; padding: 2rem;">
+                        <h3 style="padding-bottom: 1rem">External Links</h3>
+                        <div class="external-link-item">
+                            <span class="external-link-name">Avg. Client Rating</span>
+                            <a class="external-link" href="/"><span></span></a>
+                        </div>
+                        <hr>
+                        <div class="external-link-item">
+                            <span class="external-link-name">Instagram Followers</span>
+                            <a class="external-link" href="/"><span></span></a>
+                        </div>
+                        <hr>
+                        <div class="external-link-item">
+                            <span class="external-link-name">Google Ads CPC</span>
+                            <a class="external-link" href="/"><span></span></a>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+                <!-- second two blocks -->
+                <div>
+                    <!-- earnings block -->
+                    <div class="project-earnings-block">
+                        <h2 style="display: inline"><sup style="color: #a4a4b2; font-size: 0.9rem">$</sup> 69,700 </h2>
+                        <span style="background-color: #e8fff3; color: #5dd192; border-radius: 10px; padding: 1%; ">2.2%</span>
+                    </div>
+                    <!-- highlights block -->
+                    <div style="background-color: #fff; border-radius: 10px; padding: 2rem;">
+                        <h3 style="padding-bottom: 1rem">Highlights</h3>
+                        <div class="highlight-item">
+                            <span class="highlight-name">Avg. Client Rating</span>
+                            <span class="highlight-figure">7.8<span style="color: #a4a4b2">/10</span></span>
+                        </div>
+                        <hr>
+                        <div class="highlight-item">
+                            <span class="highlight-name">Avg. Quotes</span>
+                            <span class="highlight-figure">730</span>
+                        </div>
+                        <hr>
+                        <div class="highlight-item">
+                            <span class="highlight-name">Avg. Agent Earnings</span>
+                            <span class="highlight-figure">$2,309</span>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+                <!-- third block -->
+                <div>
+
+                </div>
+            </section>
+        </main>
+
+
+        <script src="app.js"></script>
+    </body>
+</html>
